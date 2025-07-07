@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "outputDirectory": "FrontEnd/portfolio-frontend/build",
   "rewrites": [
     {
       "source": "/(.*)",
