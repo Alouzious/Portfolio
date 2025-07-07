@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "react-scripts build",
+  "outputDirectory": "build",
   "rewrites": [
     {
       "source": "/(.*)",
