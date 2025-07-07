@@ -1,0 +1,35 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #111;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-right li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-right li a:hover {
+  color: #00bcd4;
+  transition: 0.3s ease;
+}

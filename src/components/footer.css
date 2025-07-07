@@ -1,0 +1,25 @@
+.footer {
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.back-to-top {
+  margin-top: 10px;
+  background-color: #00aaff;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #0088cc;
+}
