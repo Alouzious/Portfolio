@@ -13,7 +13,7 @@ function Skills() {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/skills/')
+    axios.get('https://alouzious-portfolio.onrender.com/api/skills/')
       .then((res) => setSkills(res.data))
       .catch((err) => console.error("Error fetching skills:", err));
   }, []);

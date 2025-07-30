@@ -8,7 +8,7 @@ function About() {
   const [aboutData, setAboutData] = useState(null);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/about/')
+    axios.get('https://alouzious-portfolio.onrender.com/api/about/')
       .then(response => {
         if (response.data) setAboutData(response.data);
       })
