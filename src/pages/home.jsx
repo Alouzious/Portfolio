@@ -10,7 +10,7 @@ import Footer from '../components/footer';
 
 function Home() {
   return (
-    <div>
+    <div style={{ overflowX: 'hidden', maxWidth: '100vw' }}>
       <About />
       {/* <MoreAbout /> */}
       <Services />

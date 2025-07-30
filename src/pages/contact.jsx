@@ -40,7 +40,7 @@ function Contact() {
 
     setIsSubmitting(true);
     axios
-      .post('http://127.0.0.1:8000/api/send-message/', formData)
+      .post('https://alouzious-portfolio.onrender.com/api/send-message/', formData)
       .then(() => {
         alert('Message sent successfully!');
         setFormData({ name: '', email: '', subject: '', message: '' });

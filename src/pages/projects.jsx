@@ -8,7 +8,7 @@ function Projects() {
 
   // Fetch first page on mount
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/projects/')
+    axios.get('https://alouzious-portfolio.onrender.com/api/projects/')
       .then(res => {
         setProjects(res.data.results);
         setNextPage(res.data.next);
