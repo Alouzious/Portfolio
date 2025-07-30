@@ -160,7 +160,8 @@ EMAIL_HOST_USER = 'alouzious@gmail.com'         # Your full Gmail address
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost").split(",")
+ALLOWED_HOSTS = ['alouzious-portfolio.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 
