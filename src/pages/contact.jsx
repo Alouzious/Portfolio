@@ -22,7 +22,7 @@ function Contact() {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:8000/api/contact-info/')
+      .get('https://alouzious-portfolio.onrender.com/api/contact-info/')
       .then((res) => setContactInfo(res.data))
       .catch((err) => console.error('Failed to fetch contact info:', err));
   }, []);
