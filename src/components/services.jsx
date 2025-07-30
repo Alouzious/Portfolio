@@ -6,7 +6,7 @@ function Services() {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/services/')
+    axios.get('https://alouzious-portfolio.onrender.com/api/services/')
       .then(response => setServices(response.data))
       .catch(error => console.error('Error loading services:', error));
   }, []);
